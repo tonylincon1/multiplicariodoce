@@ -55,6 +55,62 @@ img {
     user-drag: none;
     -webkit-touch-callout: none;
 }
+.bloco2{
+	width: 100%;
+    position: relative;
+  }
+
+  button.accordion {
+    background-color: #0f0f66;
+    color: white;
+    cursor: pointer;
+	line-height: 35px;
+    width: 100%;
+    text-align: left;
+    /* border: none; */
+    outline: none;
+    transition: 0.4s;
+    font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), calc(1.95217423em - var(--ffsd)));
+    padding: 1%;
+    margin: 0.5%;
+    border-color: #0f0f66;
+    font-family: YAFdJio391U-0;
+}
+
+div.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+}
+
+div.panel.show {
+    display: block;
+}
+
+div.panel {
+    padding: 0 18px;
+    background-color: transparent;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.6s ease-in-out;
+    opacity: 0;
+    padding-top: 0.5%;
+    padding-bottom: 2%;
+}
+
+div.panel.show {
+    opacity: 1;
+    max-height: 100%;
+}
+
+.purpose_block .panel p {
+	font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), calc(1.95217423em - var(--ffsd)));
+	text-align:left;
+	color:white;
+    font-family: YAFdJio391U-0;
+	padding: 2%;
+    background-color: #38A9E1;
+}
 @font-face {
     font-family: YAD1aU3sLnI-0;
     src: url(fonts/8f7934b3d45567e9cf1f541e008969a9.woff2);
@@ -1683,7 +1739,7 @@ textarea {
         grid-template-rows: 0 minmax(27.40782464rem, max-content);
    }
     #R8K3VrCAAj2jh2Rw {
-        grid-area: 2 / 2 / 3 / 8;
+        padding-bottom: 3%;
         position: relative;
    }
     #z45uHsr9z7IP2wUj {
@@ -3261,7 +3317,7 @@ textarea {
         grid-template-rows: 0 minmax(22.82863906rem, max-content);
    }
     #R8K3VrCAAj2jh2Rw {
-        grid-area: 2 / 2 / 3 / 8;
+        padding-bottom: 3%;
         position: relative;
    }
     #z45uHsr9z7IP2wUj {
@@ -4839,7 +4895,7 @@ textarea {
         grid-template-rows: 0 minmax(11.89407658rem, max-content);
    }
     #R8K3VrCAAj2jh2Rw {
-        grid-area: 2 / 2 / 3 / 8;
+        padding-bottom: 3%;
         position: relative;
    }
     #z45uHsr9z7IP2wUj {
@@ -6417,7 +6473,7 @@ textarea {
         grid-template-rows: 0 minmax(8.92055743rem, max-content);
    }
     #R8K3VrCAAj2jh2Rw {
-        grid-area: 2 / 2 / 3 / 8;
+        padding-bottom: 3%;
         position: relative;
    }
     #z45uHsr9z7IP2wUj {
@@ -7992,7 +8048,7 @@ textarea {
         grid-template-rows: 0 minmax(6.68715286rem, max-content);
    }
     #R8K3VrCAAj2jh2Rw {
-        grid-area: 2 / 2 / 3 / 8;
+        padding-bottom: 3%;
         position: relative;
    }
     #z45uHsr9z7IP2wUj {
