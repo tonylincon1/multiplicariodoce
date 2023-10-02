@@ -580,24 +580,28 @@ div.panel.show {
     src: url(fonts/f269edcab107355c511f4d8e6a6d297a.woff2);
     font-style: normal;
     font-weight: 400;
+    font-display: swap; /* Adiciona esta linha */
 }
 @font-face {
     font-family: YAFdJio391U-0;
     src: url(fonts/50cbf207eb845f88a8d5260344c12026.woff2);
     font-style: normal;
     font-weight: 700;
+    font-display: swap; /* Adiciona esta linha */
 }
 @font-face {
     font-family: YAFdJio391U-0;
     src: url(fonts/f269edcab107355c511f4d8e6a6d297a.woff2);
     font-style: italic;
     font-weight: 400;
+    font-display: swap; /* Adiciona esta linha */
 }
 @font-face {
     font-family: YAFdJio391U-0;
     src: url(fonts/50cbf207eb845f88a8d5260344c12026.woff2);
     font-style: italic;
     font-weight: 700;
+    font-display: swap; /* Adiciona esta linha */
 }
 @font-face {
     font-family: YAFdJio391U-0;
@@ -616,60 +620,70 @@ div.panel.show {
     src: url(fonts/9b924cdd1f354f8273abaaacd7966303.woff2);
     font-style: normal;
     font-weight: 200;
+    font-display: swap; /* Adiciona esta linha */
 }
 @font-face {
     font-family: YAFdJio391U-0;
     src: url(fonts/9b924cdd1f354f8273abaaacd7966303.woff2);
     font-style: italic;
     font-weight: 200;
+    font-display: swap; /* Adiciona esta linha */
 }
 @font-face {
     font-family: YAFdJio391U-0;
     src: url(fonts/9b924cdd1f354f8273abaaacd7966303.woff2);
     font-style: normal;
     font-weight: 300;
+    font-display: swap; /* Adiciona esta linha */
 }
 @font-face {
     font-family: YAFdJio391U-0;
     src: url(fonts/9b924cdd1f354f8273abaaacd7966303.woff2);
     font-style: italic;
     font-weight: 300;
+    font-display: swap; /* Adiciona esta linha */
 }
 @font-face {
     font-family: YAFdJio391U-0;
     src: url(fonts/fa9275d20e8ce1c65e6d1f0f63ccbd9c.woff2);
     font-style: normal;
     font-weight: 500;
+    font-display: swap; /* Adiciona esta linha */
 }
 @font-face {
     font-family: YAFdJio391U-0;
     src: url(fonts/fa9275d20e8ce1c65e6d1f0f63ccbd9c.woff2);
     font-style: italic;
     font-weight: 500;
+    font-display: swap; /* Adiciona esta linha */
 }
 @font-face {
     font-family: YAFdJio391U-0;
     src: url(fonts/fa9275d20e8ce1c65e6d1f0f63ccbd9c.woff2);
     font-style: normal;
     font-weight: 600;
+    font-display: swap; /* Adiciona esta linha */
 }
 @font-face {
     font-family: YAFdJio391U-0;
     src: url(fonts/fa9275d20e8ce1c65e6d1f0f63ccbd9c.woff2);
     font-style: italic;
     font-weight: 600;
+    font-display: swap; /* Adiciona esta linha */
 }
 @font-face {
     font-family: YAFdJio391U-0;
     src: url(fonts/50cbf207eb845f88a8d5260344c12026.woff2);
     font-style: normal;
     font-weight: 800;
+    font-display: swap; /* Adiciona esta linha */
 }
 @font-face {
     font-family: YAFdJio391U-0;
     src: url(fonts/50cbf207eb845f88a8d5260344c12026.woff2);
     font-style: italic;
     font-weight: 800;
+    font-display: swap; /* Adiciona esta linha */
 }
 @font-face {
     font-family: YAFdJio391U-0;
@@ -688,12 +702,14 @@ div.panel.show {
     src: url(fonts/226618464330c99b64fcaf1d7142c1e7.woff2);
     font-style: normal;
     font-weight: 400;
+    font-display: swap; /* Adiciona esta linha */
 }
 @font-face {
     font-family: YAFdJt8dAY0-0;
     src: url(fonts/e532966f486645f74efaf7432e1d01c2.woff2);
     font-style: normal;
     font-weight: 700;
+    font-display: swap; /* Adiciona esta linha */
 }
 @font-face {
     font-family: YAFdJt8dAY0-0;
@@ -748,6 +764,7 @@ div.panel.show {
     src: url(fonts/226618464330c99b64fcaf1d7142c1e7.woff2);
     font-style: normal;
     font-weight: 500;
+    font-display: swap; /* Adiciona esta linha */
 }
 @font-face {
     font-family: YAFdJt8dAY0-0;
@@ -760,6 +777,7 @@ div.panel.show {
     src: url(fonts/e532966f486645f74efaf7432e1d01c2.woff2);
     font-style: normal;
     font-weight: 600;
+    font-display: swap; /* Adiciona esta linha */
 }
 @font-face {
     font-family: YAFdJt8dAY0-0;
@@ -772,6 +790,7 @@ div.panel.show {
     src: url(fonts/a26fb2e545ea4d91b9808446bd10482b.woff2);
     font-style: normal;
     font-weight: 800;
+    font-display: swap; /* Adiciona esta linha */
 }
 @font-face {
     font-family: YAFdJt8dAY0-0;
@@ -784,6 +803,7 @@ div.panel.show {
     src: url(fonts/a26fb2e545ea4d91b9808446bd10482b.woff2);
     font-style: normal;
     font-weight: 900;
+    font-display: swap; /* Adiciona esta linha */
 }
 @font-face {
     font-family: YAFdJt8dAY0-0;
