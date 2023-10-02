@@ -320,12 +320,13 @@
                            <div id="xgUQLYQDsILKEjct" style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);">
                               <div id="J2MMLEMVza6Sk4CA" style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
                                  <input id="nome_footer" type="text" style="width:98%;height:100%;background-color:transparent;color:white;border-color: transparent;font-family:YAFdJio391U-0;line-height:1em;letter-spacing:0em;margin-left: 2%;padding: 0px;border: 0px;" placeholder="NOME">
-                                 <span class='msg-erro msg-nome'></span>
+                                 
                               </div>
                            </div>
                         </div>
                      </div>
                   </div>
+                  <span class='msg-erro msg-nome'></span>
                   </div>
                   <div id="HtPIh2w7ryzPltwM" class="espaco_interno">
                   <div id="eX0r46JS9QjccTYe" style="display:grid;position:relative;">
@@ -348,12 +349,13 @@
                            <div id="kqVuTWalwm3VvC87" style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);">
                               <div id="PRukujE8DVeHSirX" style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
                                 <input id="Telefone" onkeypress="$(this).mask('(00) 0 0000-0000');" type="text" style="width:98%;height:100%;background-color:transparent;color:white;border-color: transparent;font-family:YAFdJio391U-0;line-height:1em;letter-spacing:0em;margin-left: 2%;padding: 0px;border: 0px;" placeholder="TELEFONE">
-                                <span class='msg-erro msg-telefone'></span>
+                               
                               </div>
                            </div>
                         </div>
                      </div>
                   </div>
+                  <span class='msg-erro msg-telefone'></span>
                </div>
                <div id="tAlFYyHdFomaDbqZ" class="espaco_interno">
                   <div id="hd3cdIeTW09clV9X" style="display:grid;position:relative;">
@@ -376,12 +378,13 @@
                            <div id="ZprpIagHm9fdPoao" style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);">
                               <div id="D8MJUziTimXKtk4p" style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
                                 <input id="E-mail" type="text" style="width:98%;height:100%;background-color:transparent;color:white;border-color: transparent;font-family:YAFdJio391U-0;line-height:1em;letter-spacing:0em;margin-left: 2%;padding: 0px;border: 0px;" placeholder="E-MAIL">
-                                <span class='msg-erro msg-email'></span>
+                                
                               </div>
                            </div>
                         </div>
                      </div>
                   </div>
+                  <span class='msg-erro msg-email'></span>
                </div>
                <div id="AGa6rJ6wXpDAFupn" class="espaco_interno">
                   <div id="o1v5AsjojYcrkiNM" style="display:grid;position:relative;">
@@ -404,12 +407,13 @@
                            <div id="kfexay6CD9FyhDdQ" style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);">
                               <div id="gyN5aJ6H4rUsRotY" style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
                                 <input id="Assunto" type="text" style="width:98%;height:100%;background-color:transparent;color:white;border-color: transparent;font-family:YAFdJio391U-0;line-height:1em;letter-spacing:0em;margin-left: 2%;padding: 0px;border: 0px;" placeholder="ASSUNTO">
-                                <span class='msg-erro msg-assunto'></span>
+                                
                               </div>
                            </div>
                         </div>
                      </div>
                   </div>
+                  <span class='msg-erro msg-assunto'></span>
                </div>
                <div id="Mxk4uc1kDHhu8aDU" class="espaco_interno">
                   <div id="KD9eXLFTis9E7TQr" style="display:grid;position:relative;">
@@ -428,16 +432,20 @@
                         <div id="PX3n3pS7OdI39XFF" style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);">
                            <div id="InjKxZDOtjdgNwgj" style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
                             <textarea id="duvida_footer" style="width:98%;height:98%;background-color:transparent;color:white;border-color: transparent;font-family:YAFdJio391U-0;line-height:1em;letter-spacing:0em;margin-left:2%;margin-top:2%;padding: 0px;border: 0px;" placeholder="MENSAGEM"></textarea>
-                            <span class='msg-erro msg-interesse'></span>
+                            
                            </div>
                         </div>
                      </div>
                   </div>
                </div>
+               <span class='msg-erro msg-interesse'></span>
                </div>
                <div id="forms2">
                   <div id="botao_edital" class="espaco_interno">
-                     <input id="TIGkTPU8jzpiDgn5" type="submit" value="Enviar" style="color: #fefefe; text-transform: uppercase;">
+                     <input id="TIGkTPU8jzpiDgn5" class="botao_enviar" type="submit" value="Enviar" style="color: #fefefe; text-transform: uppercase;cursor: pointer;">
+                     <div id="loadingSpinner" style="display:none;">
+                        <img src="images/1494.gif" alt="Loading...">
+                     </div>
                   </div>
                </div>
                </form>

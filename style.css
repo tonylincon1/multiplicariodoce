@@ -1028,10 +1028,15 @@ div.panel.show {
     font-weight: 900;
 }
 .msg-erro {
-    color: white;
+    color: red;
     font-family: YAFdJio391U-0;
-    padding: 1%;
     font-size: 15px;
+}
+#loadingSpinner {
+    height: 220%;
+}
+#loadingSpinner img {
+    height: 100%;
 }
 .msg-envio {
     color: #38a9e1;

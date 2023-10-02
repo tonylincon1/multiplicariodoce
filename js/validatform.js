@@ -13,7 +13,7 @@ var contErro = 0;
 function required (tagErro,tagCampo,tagMensagem){
 caixa = document.querySelector(tagErro);
 if(tagCampo.value == "" | tagCampo.value == null){
-    caixa.innerHTML = "*Favor preencher: ".concat(tagMensagem);
+    caixa.innerHTML = "*Por favor preencher: ".concat(tagMensagem);
     caixa.style.display = 'block';
     contErro += 1;
 }else{
@@ -39,7 +39,7 @@ required('.msg-nome',nome,"Nome")
 required('.msg-telefone',telefone,"Telefone")
 required('.msg-email',email,"E-mail")
 validemail('.msg-email',email)
-required('.msg-interesse',duvida,"Dúvida")
+required('.msg-interesse',duvida,"Mensagem")
 required('.msg-assunto',assunto,"Assunto")
 
 if(contErro > 0){
@@ -54,6 +54,11 @@ else {
     formData.append('E-mail', email.value);
     formData.append('duvida_footer', duvida.value);
     formData.append('Assunto', assunto.value);
+
+    // Exibe o spinner de carregamento
+    document.getElementById('loadingSpinner').style.display = 'block';
+    document.getElementsByClassName('botao_enviar')[0].style.display = 'none';
+
     form.addEventListener("submit", e => {
         e.preventDefault();
         fetch("https://hook.us1.make.com/3yee3rgod20qdpjabtvrxnvoco8hoypv", {
@@ -63,6 +68,9 @@ else {
             response => response.toString()
         ).then((html) => {
             setTimeout(function() {
+                // Oculta o spinner de carregamento quando a resposta é recebida
+                document.getElementById('loadingSpinner').style.display = 'none';
+                document.getElementsByClassName('botao_enviar')[0].style.display = 'flex';
                 caixa = document.querySelector('.msg-envio');
                 caixa.innerHTML = "Sua dúvida foi enviada, entraremos em contato.";
             }, 1000);
