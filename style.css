@@ -78,6 +78,10 @@ img {
     font-family: YAFdJio391U-0;
 }
 
+#cidades {
+    max-height: 350px;
+}
+
 .pages {
     padding-top: 5%;
     padding-bottom: 5%;
@@ -1130,6 +1134,7 @@ textarea {
     #B42CZ9ftoHPiJWA5 {
         grid-area: 2 / 2 / 4 / 30;
         position: relative;
+        background-color: #0f0f66;
    }
     #RMUs7FmQITjG0U8N {
         font-size: calc(2.49983891em - var(--ffsd));
@@ -2639,6 +2644,9 @@ textarea {
    }
 }
 @media (min-width: 320px) and (max-width: 425px) {
+    body{
+        zoom: 75%;
+    }
     .container {
         flex-direction: column;
     }
@@ -2792,6 +2800,7 @@ textarea {
     #B42CZ9ftoHPiJWA5 {
         grid-area: 2 / 2 / 4 / 30;
         position: relative;
+        background-color: #0f0f66;
    }
     #RMUs7FmQITjG0U8N {
         font-size: calc(2.55085603em - var(--ffsd));
@@ -4289,7 +4298,7 @@ textarea {
         min-height: calc(11.08302579 * var(--1vh, 1vh));
    }
 }
-@media (min-width: 480.05px) and (max-width: 768px) {
+@media (min-width: 426.05px) and (max-width: 768px) {
     #tn8uUdmX8REhkBiW {
         grid-area: 2 / 2 / 3 / 3;
         position: relative;
@@ -4361,6 +4370,7 @@ textarea {
     #B42CZ9ftoHPiJWA5 {
         grid-area: 2 / 2 / 4 / 30;
         position: relative;
+        background-color: #0f0f66;
    }
     #RMUs7FmQITjG0U8N {
         font-size: calc(2.50530503em - var(--ffsd));
@@ -5868,6 +5878,9 @@ textarea {
    }
 }
 @media (min-width: 768.05px) and (max-width: 1024px) {
+    body{
+        zoom: 100%;
+    }
     #page-1 {
         padding-top: 5.5%;
         padding-bottom: 8%;
@@ -5960,6 +5973,7 @@ textarea {
     #B42CZ9ftoHPiJWA5 {
         grid-area: 2 / 2 / 4 / 30;
         position: relative;
+        background-color: #0f0f66;
    }
     #RMUs7FmQITjG0U8N {
         font-size: calc(2.56224378em - var(--ffsd));
@@ -7482,8 +7496,14 @@ textarea {
     #cidades {
         max-height: 350px;
     }
+    body{
+        zoom: 75%;
+    }
 }
 @media (min-width: 426px) and (max-width: 768.05px) {
+    body{
+        zoom: 100%;
+    }
     .logos img {
         width: 150px;
     }
@@ -7590,6 +7610,7 @@ textarea {
     #B42CZ9ftoHPiJWA5 {
         grid-area: 2 / 2 / 4 / 30;
         position: relative;
+        background-color: #0f0f66;
    }
     #RMUs7FmQITjG0U8N {
         font-size: calc(2.73306003em - var(--ffsd));
