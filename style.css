@@ -364,6 +364,21 @@ html::-webkit-scrollbar-thumb:hover {
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 0.29em;
+    font-family: YAFdJio391U-0;
+}
+
+#TIGkTPU8jzpiDgn5 {
+    font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), calc(1.95217423em - var(--ffsd)));
+}
+
+#botao_edital input {
+    align-items: center;
+    line-height: 1.39540496em;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.29em;
+    background: transparent;
+    border: none;
 }
 
 .page2 {
@@ -387,11 +402,11 @@ html::-webkit-scrollbar-thumb:hover {
 
 #forms2 {
     width: 20%;
+    text-align: center;
 }
 
 #forms2 #botao_edital {
     padding: 20px;
-    font-size: calc(1.26838578em - var(--ffsd));
     font-family: YAFdJio391U-0;
     line-height: 1.38518946em;
     text-align: center;
@@ -992,8 +1007,28 @@ div.panel.show {
     font-style: italic;
     font-weight: 900;
 }
-#PjPvgHzJr8ZA1PGa::placeholder {
+.msg-erro {
     color: white;
+    font-family: YAFdJio391U-0;
+    padding: 1%;
+    font-size: 15px;
+}
+.msg-envio {
+    color: #38a9e1;
+    font-family: YAFdJio391U-0;
+    padding: 1%;
+    font-size: 20px;
+    font-weight: 700;
+}
+#nome_footer::placeholder,#Telefone::placeholder,#E-mail::placeholder,#Assunto::placeholder,#duvida_footer::placeholder {
+    color: white;
+    border: none;
+    outline: none;
+}
+#nome_footer,#Telefone,#E-mail,#Assunto,#duvida_footer {
+    border: none;
+    outline: none;
+    font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), calc(1.75696193em - var(--ffsd)));
 }
 textarea {
     resize: none;
@@ -2578,7 +2613,89 @@ textarea {
         min-height: calc(11.75804254 * var(--1vh, 1vh));
    }
 }
-@media (min-width: 375.05px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 425px) {
+    .container {
+        flex-direction: column;
+    }
+    .text-section {
+        padding-top: 7%;
+        padding-left: 0%;
+        padding-right: 0%;
+        padding-bottom: 0%;
+        width:100%;
+    }
+    .image-section{
+        width: 100%;
+    }
+    #page-1 {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .logos img {
+        width: 100px;
+    }
+    .container h1 {
+        font-size: 25px;
+    }
+    .container h2 {
+        font-size: 28px;
+    }
+    #botao_edital a {
+        font-size: 20px;
+    }
+    .page2 {
+        flex-direction: column;
+    }
+    #lado1, #lado2 {
+        width: 100%;
+    }
+    #FJ18v8TzbYYUnWe1, #c9lrhWNNXJXkcwW5 {
+        font-size: 20px;
+    }
+    .blue-rectangle h1 {
+        font-size: 18px;
+    }
+    #areas-atendidas {
+        flex-direction: column;
+        padding-top: 5%;
+    }
+    #page-4 .blue-rectangle {
+        width: 70%;
+    }
+    #cidades {
+        width: 40%;
+        max-height: 162px;
+    }
+    #cidades li {
+        font-size: 15px;
+    }
+    #mapa {
+        width: 100%;
+    }
+    #page-7 .blue-rectangle {
+        width: 90%;
+    }
+    button.accordion, .purpose_block .panel p, #QqHuUSBKPv8WUG0s,#nome_footer, #Telefone, #E-mail, #Assunto, #duvida_footer, #TIGkTPU8jzpiDgn5 {
+        font-size: 20px;
+    }
+    #forms_total {
+        flex-direction: column;
+    }
+    #forms1,#forms2,#forms3 {
+        width: 100%;
+    }
+    #forms2 {
+        display: flex;
+        justify-content: center;
+    }
+    #menuDropdown {
+        left: -5%;
+        width: 173px;
+        margin-top: 3%;
+    }
+    #botao_edital {
+        padding: 18px;
+    }
     #tn8uUdmX8REhkBiW {
         grid-area: 2 / 2 / 3 / 3;
         position: relative;
@@ -2824,13 +2941,7 @@ textarea {
         grid-area: 2 / 2 / 3 / 9;
         position: relative;
    }
-    #FJ18v8TzbYYUnWe1 {
-        font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), calc(3.74196598em - var(--ffsd)));
-   }
     #ULEpgnG2o8zZsFFH {
-        font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), calc(3.74196598em - var(--ffsd)));
-   }
-    #c9lrhWNNXJXkcwW5 {
         font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), calc(3.74196598em - var(--ffsd)));
    }
     #oZEvmsL00PmiU8oj {
@@ -3907,9 +4018,6 @@ textarea {
     #xV7T8Caq1pjoSaIC {
         grid-area: 2 / 4 / 3 / 20;
         position: relative;
-   }
-    #QqHuUSBKPv8WUG0s {
-        font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), calc(3.66667083em - var(--ffsd)));
    }
     #WOdaoTlWmKDMLSyM {
         --first-font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), 3.66667083em);
@@ -7333,7 +7441,7 @@ textarea {
         min-height: calc(11.1313153 * var(--1vh, 1vh));
    }
 }
-@media (min-width: 1024.05px) and (max-width: 1440px) {
+@media (min-width: 1024px) and (max-width: 1640px) {
     #page-1 {
         padding-top: 6%;
     }
@@ -7346,8 +7454,11 @@ textarea {
     #forms2 #botao_edital {
         width: 80%;
     }
+    #cidades {
+        max-height: 350px;
+    }
 }
-@media (min-width: 425px) and (max-width: 768.05px) {
+@media (min-width: 426px) and (max-width: 768.05px) {
     .logos img {
         width: 150px;
     }
@@ -7361,11 +7472,7 @@ textarea {
     }
     
     #cidades {
-        max-height:220px;
-    }
-
-    #FJ18v8TzbYYUnWe1, #c9lrhWNNXJXkcwW5{
-        font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), calc(2.29166927em - var(--ffsd)));
+        max-height:265px
     }
 
     #forms1 {
