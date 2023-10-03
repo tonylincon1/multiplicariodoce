@@ -75,7 +75,7 @@ img {
     padding: 1%;
     margin: 0.5%;
     border-color: #0f0f66;
-    font-family: YAFdJio391U-0;
+    font-family: YAFdJt8dAY0-0;
 }
 
 #cidades {
@@ -108,7 +108,7 @@ img {
 }
 
 .espaco_interno{
-    margin-bottom: 5%;
+    margin-bottom: 3%;
 }
 
 #page-8 .espaco_interno {
@@ -428,13 +428,13 @@ html::-webkit-scrollbar-thumb:hover {
 
 #forms3 a {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     width: 100%;
 }
 
 #forms3 a img {
-    width: 35%;
-    height: 35%;
+    width: 25%;
+    height: 25%;
 }
 
 div.panel {
@@ -2644,6 +2644,9 @@ textarea {
    }
 }
 @media (min-width: 320px) and (max-width: 425px) {
+    #forms3 a {
+        justify-content: center;
+    }
     body{
         zoom: 75%;
     }
@@ -2672,9 +2675,6 @@ textarea {
     }
     .container h2 {
         font-size: 28px;
-    }
-    #botao_edital a {
-        font-size: 20px;
     }
     .page2 {
         flex-direction: column;
@@ -7481,6 +7481,12 @@ textarea {
    }
 }
 @media (min-width: 1024px) and (max-width: 1640px) {
+    #FJ18v8TzbYYUnWe1, #c9lrhWNNXJXkcwW5, .alinhamentobotao {
+        width: 84%;
+    }
+    #botao_edital a {
+        font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), calc(1.55217423em - var(--ffsd)));
+    }
     #page-1 {
         padding-top: 6%;
     }
