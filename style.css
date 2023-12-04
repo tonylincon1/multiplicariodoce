@@ -61,6 +61,23 @@ img {
     position: relative;
   }
 
+.video_youtube {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-container {
+    padding: 1%;
+}
+
+.video-container iframe {
+    width: 540px;
+    height: 300px;
+}
+
   button.accordion {
     background-color: #0f0f66;
     color: white;
@@ -1067,6 +1084,23 @@ textarea {
         grid-area: 2 / 2 / 3 / 3;
         position: relative;
    }
+   .video_youtube {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    }
+
+    .video-container {
+        padding: 1%;
+    }
+
+    .video-container iframe {
+        width: 260px;
+        height: 160px;
+    }
     #BmXjRwfa1KgNomfH {
         grid-template-columns: 0 100%;
         grid-template-rows: 0 100%;
@@ -2649,6 +2683,23 @@ textarea {
     }
     body{
         zoom: 75%;
+    }
+    .video_youtube {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    }
+
+    .video-container {
+        padding: 1%;
+    }
+
+    .video-container iframe {
+        width: 430px;
+        height: 230px;
     }
     .container {
         flex-direction: column;
@@ -4303,6 +4354,24 @@ textarea {
         grid-area: 2 / 2 / 3 / 3;
         position: relative;
    }
+
+   .video_youtube {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    }
+
+    .video-container {
+        padding: 1%;
+    }
+
+    .video-container iframe {
+        width: 510px;
+        height: 230px;
+    }
     #BmXjRwfa1KgNomfH {
         grid-template-columns: 0 100%;
         grid-template-rows: 0 100%;
@@ -7484,6 +7553,10 @@ textarea {
     #FJ18v8TzbYYUnWe1, #c9lrhWNNXJXkcwW5, .alinhamentobotao {
         width: 84%;
     }
+    .video-container iframe {
+        width: 357px;
+        height: 208px;
+    }
     #botao_edital a {
         font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), calc(1.55217423em - var(--ffsd)));
     }
@@ -7549,6 +7622,10 @@ textarea {
         grid-area: 2 / 2 / 3 / 3;
         position: relative;
    }
+   .video-container iframe {
+    width: 540px;
+    height: 300px;
+    }
     #BmXjRwfa1KgNomfH {
         grid-template-columns: 0 100%;
         grid-template-rows: 0 100%;
