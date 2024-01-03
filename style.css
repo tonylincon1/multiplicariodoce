@@ -56,6 +56,10 @@ img {
     user-drag: none;
     -webkit-touch-callout: none;
 }
+
+#font_edital {
+    font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), calc(1.45217423em - var(--ffsd)))
+}
 .bloco2{
 	width: 100%;
     position: relative;
